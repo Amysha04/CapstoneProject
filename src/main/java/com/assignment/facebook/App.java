@@ -33,8 +33,8 @@ public class App {
         WebElement submitButton = driver.findElement(By.cssSelector("button"));
         submitButton.click();      	
         
-        WebElement message = driver.findElement(By.className("_9ay7"));
-        message.getText();
+       // WebElement message = driver.findElement(By.className("_9ay7"));
+        //message.getText();
 
         driver.quit();
     }
